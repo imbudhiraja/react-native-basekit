@@ -1,0 +1,75 @@
+{
+  "name": "react-native-basekit",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "./node_modules/.bin/eslint . --ext .js",
+    "precommit": "lint-staged"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "npm run lint",
+      "git add ."
+    ]
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.5.1",
+    "@react-native-community/netinfo": "^4.1.3",
+    "axios": "^0.19.0",
+    "idx": "^2.5.6",
+    "lodash": "^4.17.15",
+    "lottie-ios": "^3.0.3",
+    "lottie-react-native": "^3.0.2",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "querystring": "^0.2.0",
+    "react": "16.8.6",
+    "react-mixin": "^5.0.0",
+    "react-native": "0.60.4",
+    "react-native-fbsdk": "^0.10.1",
+    "react-native-firebase": "^5.5.5",
+    "react-native-gesture-handler": "^1.3.0",
+    "react-native-google-signin": "^2.0.0",
+    "react-native-iphone-x-helper": "^1.2.1",
+    "react-native-loading-spinner-overlay": "^1.0.1",
+    "react-native-lottie-loader": "0.0.6",
+    "react-native-offline": "^5.0.0",
+    "react-native-redux-toast": "^1.0.3",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^3.11.1",
+    "react-navigation-redux-helpers": "^3.0.2",
+    "react-redux": "^7.1.0",
+    "react-timer-mixin": "^0.13.4",
+    "redux": "^4.0.4",
+    "redux-actions": "^2.6.5",
+    "redux-persist": "^5.10.0",
+    "redux-saga": "^1.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/runtime": "^7.5.0",
+    "@react-native-community/eslint-config": "^0.0.3",
+    "babel-jest": "^24.8.0",
+    "eslint": "^6.1.0",
+    "eslint-config-imbudhiraja": "^1.0.4",
+    "eslint-config-prettier": "^6.0.0",
+    "husky": "^3.0.1",
+    "jest": "^24.8.0",
+    "lint-staged": "^9.2.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "author": "Manish Budhiraja",
+  "license": "MIT",
+  "email": "iammanishbudhiraja@gmail.com"
+}
