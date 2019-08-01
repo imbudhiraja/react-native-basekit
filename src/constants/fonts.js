@@ -1,37 +1,37 @@
-import { moderateScale } from '../utilities/responsive-fonts';
+import { normalize } from '../utilities/responsive-fonts';
 
 const Fonts = {
   extraLarge: {
     fontFamily: 'OpenSans-Regular',
-    fontSize: moderateScale(18),
+    fontSize: normalize(16),
   },
   extraLargeBold: {
     fontFamily: 'OpenSans-Bold',
-    fontSize: moderateScale(18),
+    fontSize: normalize(16),
   },
   header: {
     fontFamily: 'OpenSans-Regular',
-    fontSize: moderateScale(20),
+    fontSize: normalize(18),
   },
   headerBold: {
     fontFamily: 'OpenSans-Bold',
-    fontSize: moderateScale(20),
+    fontSize: normalize(18),
   },
   large: {
     fontFamily: 'OpenSans-Regular',
-    fontSize: moderateScale(16),
+    fontSize: normalize(14),
   },
   largeBold: {
     fontFamily: 'OpenSans-Bold',
-    fontSize: moderateScale(16),
+    fontSize: normalize(14),
   },
   regular: {
     fontFamily: 'OpenSans-Regular',
-    fontSize: moderateScale(14),
+    fontSize: normalize(12),
   },
   regularBold: {
     fontFamily: 'OpenSans-Bold',
-    fontSize: moderateScale(14),
+    fontSize: normalize(12),
   },
 };
 
