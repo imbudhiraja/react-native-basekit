@@ -58,7 +58,7 @@
     "@react-native-community/eslint-config": "^0.0.3",
     "babel-jest": "^24.8.0",
     "eslint": "^6.1.0",
-    "eslint-config-imbudhiraja": "^1.0.4",
+    "eslint-config-imbudhiraja": "^1.1.1",
     "eslint-config-prettier": "^6.0.0",
     "husky": "^3.0.1",
     "jest": "^24.8.0",
